@@ -1,3 +1,3 @@
 # YiIonicListView
-    Ionic listView for leancloud
-    bower install yi-ionic-listview
+Ionic listView for leancloud
+    $ bower install yi-ionic-listview
