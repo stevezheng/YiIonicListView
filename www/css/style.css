@@ -1,0 +1,76 @@
+body {
+    background-color: #e7e7e7;
+}
+
+.index-button img {
+    width: 100%;
+    margin: 0px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#me-login, #me-info {
+    border-top: 1px solid #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*定制导航条active*/
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+    opacity: 1; color: #145fd7; }
+.tab-item.tab-item-active.tab-item-light, .tab-item.active.tab-item-light, .tab-item.activated.tab-item-light {
+    color: #fff; }
+.tab-item.tab-item-active.tab-item-stable, .tab-item.active.tab-item-stable, .tab-item.activated.tab-item-stable {
+    color: #f8f8f8; }
+.tab-item.tab-item-active.tab-item-positive, .tab-item.active.tab-item-positive, .tab-item.activated.tab-item-positive {
+    color: #4a87ee; }
+.tab-item.tab-item-active.tab-item-calm, .tab-item.active.tab-item-calm, .tab-item.activated.tab-item-calm {
+    color: #43cee6; }
+.tab-item.tab-item-active.tab-item-assertive, .tab-item.active.tab-item-assertive, .tab-item.activated.tab-item-assertive {
+    color: #ef4e3a; }
+.tab-item.tab-item-active.tab-item-balanced, .tab-item.active.tab-item-balanced, .tab-item.activated.tab-item-balanced {
+    color: #66cc33; }
+.tab-item.tab-item-active.tab-item-energized, .tab-item.active.tab-item-energized, .tab-item.activated.tab-item-energized {
+    color: #f0b840; }
+.tab-item.tab-item-active.tab-item-royal, .tab-item.active.tab-item-royal, .tab-item.activated.tab-item-royal {
+    color: #8a6de9; }
+.tab-item.tab-item-active.tab-item-dark, .tab-item.active.tab-item-dark, .tab-item.activated.tab-item-dark {
+    color: #444; }
+
+#user-info .item{
+    border: none;
+}
+
+.item-thumbnail-left img:first-child{
+    width: 50px;
+    height: 50px;
+}
+
+.item-thumbnail-left {
+    padding-left: 80px;
+    min-height: 60px;
+}
+
+.info-content {
+    margin-top: 16px;
+}
+
+.info-content i:last-child {
+    margin-left: 20px;
+}
+
+.pull-right {
+    float: right;
+    padding-right: 10px;
+}
+
+/*tabs-striped css hack*/
+.tabs-striped .tab-item.tab-item-active, .tabs-striped .tab-item.active, .tabs-striped .tab-item.activated {
+    border:none;
+}
+
+.avatar {
+    border-radius:50%;
+}

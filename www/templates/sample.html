@@ -1,0 +1,21 @@
+<ion-header-bar class="bar-positive bar bar-header">
+    <h1 class="title">YiIonicListView</h1>
+</ion-header-bar>
+<ion-view>
+    <ion-content>
+        <ion-refresher on-refresh="doRefresh()"></ion-refresher>
+        <ion-list>
+            <ion-item class="item-avatar" ng-repeat="item in items.models">
+                <img ng-src="{{item.get('avatar')}} "/>
+
+                <h2>{{item.get('name')}}</h2>
+
+                <p>{{item.get('content')}}</p>
+            </ion-item>
+        </ion-list>
+        <p style="text-align: center; margin-top: 20px;" ng-hide="!noMoreItemsAvailable">已加载完全部数据</p>
+        <ion-infinite-scroll ng-if="!noMoreItemsAvailable" on-infinite="loadMore()"
+                             distance="1%"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>
+

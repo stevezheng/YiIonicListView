@@ -1,0 +1,37 @@
+/* Empty. Add your own CSS if you like */
+body{
+    background-color: #e7e7e7;
+}
+
+/*.tab-item .icon{*/
+    /*background-size: 30px 30px;*/
+/*}*/
+
+/*.tab-home {*/
+    /*background: url('../img/tab_home.png') no-repeat center;*/
+/*}*/
+
+/*.tab-door {*/
+    /*background: url('../img/tab_door.png') no-repeat center;*/
+/*}*/
+
+/*.tab-around {*/
+    /*background: url('../img/tab_around.png') no-repeat center;*/
+/*}*/
+
+/*.tab-me {*/
+    /*background: url('../img/tab_me.png') no-repeat center;*/
+/*}*/
+
+.ad-banner{
+    margin-top:44px;
+}
+
+.ad-banner, .ad-banner img{
+    width:100%;
+}
+
+.index-button img{
+    width:100%;
+    margin:0px;
+}
